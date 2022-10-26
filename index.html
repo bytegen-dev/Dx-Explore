@@ -7,28 +7,30 @@
     <title>Explore™</title>
     <!-- add icon to website -->
     <link rel="icon" href="./img/commercial-plane.png" type="image/x-icon">
+    <script src="./scrollreveal.min.js"></script>
 </head>
 <!-- linking css files -->
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="defaults.css">
 <link rel="stylesheet" href="mobile.css">
-<!-- main.js is linked below code-->
+<!-- main.js is linked below code, scroll reveal is linked above-->
 <body>
     <!-- What will I do without my beautiful preloader 😁, it continues below code tho -->
-    <!-- <div id="preloader"></div> -->
+    <div id="preloader"></div>
     <!-- my beautiful backdrop -->
-    <!-- <div class="backdrop" onclick="kaisen()"></div> -->
+    <div class="backdrop" onclick="kaisen()"></div>
     <!-- header starts here -->
     <header>
         <nav class="nav-desktop" id="home">
             <div class="explorer-desktop"> 
+                <!-- <img src="./gif/airplane-blue.gif" alt="explorer-logo"> -->
                 <h1>explorer</h1>
             </div>
             <div class="desktop-link-holder">
                 <ul>
                     <li><a href="#home"> HOME</a></li>
                     <li><a href="#about"> ABOUT</a></li>
-                    <li><a href="tel:+12347141699"> CONTACT</a></li>
+                    <li><a href="#contact-developer"> CONTACT</a></li>
                 </ul>
             </div>
         </nav>
@@ -39,11 +41,13 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos
                         odit incidunt reiciendis officia explicabo sint, magnam ex laboriosam vel sed eligendi architecto? At iusto nesciunt, quod est assumenda cupiditate! Lorem ipsum dolor sit amet consecteturadipisicing elit.
                     </p>
-                    <button class="btn btn-tomato">Learn more
-                        <div>
-                            <img src="./img/right-arrow.png" alt="right arrow">
-                       </div>
-                    </button>
+                    <div>
+                        <button class="btn btn-tomato">Learn more
+                            <div>
+                                <img src="./img/right-arrow.png" alt="right arrow">
+                            </div>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -172,5 +176,19 @@
         </div>
     </footer>
     <!-- footer ends here -->
+
+    <script src="main.js"></script>
+
+    <!-- preloader continues -->
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener ("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
+
+
+
 </body>
 </html>

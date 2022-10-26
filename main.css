@@ -43,13 +43,14 @@ html{
 
 /* header starts here */
 header {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     /* border: 2px solid black; */
     background: var(--gradient), url(./img/header.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.4);
 }
 
 .nav-desktop {
@@ -68,7 +69,22 @@ header {
     color: var(--white-color);
     text-transform: uppercase;
     padding: 0 10px;
+    display: flex;
+    align-items: center;
 }
+
+/* .explorer-desktop img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    transition: all 1s ease;
+    border: 2px solid rgba(255, 255, 255, 0.568);
+    border-radius: 50%;
+}
+
+.explorer-desktop img:hover{
+    transform: translateX(-200px);
+} */
 
 .explorer-desktop h1{
     font-family: sans-serif;
@@ -95,10 +111,23 @@ header {
     font-weight: bolder;
     border: 3px solid transparent;
     transition: all 0.5s ease;
+    position: relative;
 }
 
-.desktop-link-holder ul a:hover{
-    border: 3px solid rgba(255, 255, 255, 0.719);
+.desktop-link-holder ul a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.5s ease;
+    background: rgba(255, 255, 255, 0.627);
+}
+
+.desktop-link-holder ul a:hover::after{
+    width: 40%;
 }
 
 
@@ -173,7 +202,7 @@ header {
 main{
     /* border: 2px solid green; */
     height: 1000px;
-    padding: 100px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -300,20 +329,35 @@ footer {
 
 .footer-icon-holder div{
     margin: 0 10px;
+    border: 2px dotted transparent;
+    transition: all 0.5s ease;
+    padding-bottom: 5px;
 }
 
-.github a img{
-    width: 40px;
-    height: 40px;
-    color: white;
-    background: black;
+.footer-icon-holder div:hover {
+    border-bottom: 2px dotted rgba(255, 255, 255, 0.479);
 }
+/* linkedin icon starts */
 .linkedin a img{
     width: 40px;
     height: 40px;
     color: white;
     background: black;
 }
+
+/* linkedin icon ends */
+
+/* github icon starts */
+.github a img{
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: black;
+}
+
+/* github icon ends */
+
+/* twitter icon starts */
 .twitter a img{
     width: 40px;
     height: 40px;
@@ -321,9 +365,47 @@ footer {
     background: black;
 }
 
+/* twitter icon ends */
+
 /* .footer-icon-holder a{
     width: 20px;
     height: 20px;
 } */
 
 /* footer ends here */
+
+/* preloader starts here */
+#preloader{
+    background: #000 url(./preloader/circle-loader.gif) no-repeat center;
+    background-size: 15%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+/* preloader ends here */
+
+/* backdrop css code is here */
+
+.backdrop {
+    width :100%;
+    height: 100%;
+    background: var(--light-text-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    transition: all 1s ease;
+    backdrop-filter: blur(5px);
+    /* z-index: 5; */
+}
+
+.backdrop:hover {
+    backdrop-filter: blur(0px);
+}
+
+.show-backdrop {
+    display: block;
+}
+
+/* backdrop css codes ends here */

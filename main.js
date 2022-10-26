@@ -1,0 +1,49 @@
+ScrollReveal({ reset: true, duration: 3000, })
+
+ScrollReveal().reveal('.explorer-desktop', {origin:'left', distance: '200px'});
+// ScrollReveal().reveal('.explorer-desktop', {origin:'left', distance: '200px'});
+// ScrollReveal().reveal('.desktop-link-holder', {origin:'right', distance: '200px'});
+ScrollReveal().reveal('.outro button', {origin:'right', distance: '50px'});
+// ScrollReveal().reveal('.outro h2', {origin:'left'});
+ScrollReveal().reveal('.header-text-container div', {origin:'bottom', distance: '200px'});
+ScrollReveal().reveal('.header-text-container button div', {origin:'right', delay:3000, distance:'50px'});
+// ScrollReveal().reveal('.heading, , {
+//     origin: 'left',
+//     distance: '100px',
+//     duration: 2000
+
+// });
+
+
+
+var unavailablefeature = "This feature is not yet available, try again later 😀"
+
+
+
+function dosomething() {
+    alert(unavailablefeature)
+}
+
+
+var contact= "https://wa.me/message/SQWCD3JZAO36B1"
+function callcharges() {
+    alert("🔔 Local call rates apply")
+}
+
+function contactus() {
+    window.open (contact)
+}
+
+
+// console.log(hamburgerdiv)
+
+var hamburgerdiv = document.querySelector(".hamburger")
+var mobileLinks = document.querySelector(".mobile-link-holder")
+var mybackdrop = document.querySelector(".backdrop")
+
+
+function kaisen() {
+    hamburgerdiv.classList.toggle("showburger")
+    mobileLinks.classList.toggle("show-mobile-link-holder")
+    mybackdrop.classList.toggle("show-backdrop")
+}
