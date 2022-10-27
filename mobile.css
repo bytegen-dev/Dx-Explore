@@ -82,8 +82,8 @@
 
     /* preloader starts here */
     #preloader{
-        background: #000 url(./preloader/egg-to-triangle.gif) no-repeat center;
-        background-size: 30%;
+        background: #000 url(./preloader/circle-loader.gif) no-repeat center;
+        background-size: 20%;
         height: 100%;
         width: 100%;
         position: fixed;
