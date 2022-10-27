@@ -407,3 +407,18 @@ footer {
 }
 
 /* backdrop css codes ends here */
+
+/* scroll stuff starts*/
+
+.scroll-down .nav-mobile {
+    transition: all 0.5s ease;
+    transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up .nav-mobile {
+    transition: all 0.5s ease;
+    /* filter: drop-shadow(0 -10px 20px rgb(170, 170, 170)); */
+}
+
+
+/* scroll stuff ends*/
