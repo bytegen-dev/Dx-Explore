@@ -87,6 +87,7 @@
         width: 100%;
         top: 0;
         align-items: center;
+        box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.35);
     }
 
     .explorer-mobile h1{
