@@ -215,8 +215,8 @@ body {
     position: fixed;
     right: 0;
     top: 0;
-    height: 100vh;
-    width: 50%;
+    height: 50vh;
+    width: 100%;
     background: var(--main-color);
     transition: all 1.5s ease;
     z-index: 6;
