@@ -110,6 +110,11 @@
         font-family: sans-serif;
         font-weight: bolder;
         text-transform: uppercase;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 20px 10px;
+
     }
 
     .hamburger {
