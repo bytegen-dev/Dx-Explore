@@ -176,16 +176,16 @@
     }
 
     .getstart button{
-        width: 300px;
+        width: 280px;
         margin-top: 40px;
         align-items: center;
-        padding: 10px;
+        /* padding: 10px; */
     }
     
     .getstart button h1{
         font-family: sans-serif;
         font-weight: bolder;
-        font-size: 35px;
+        font-size: 30px;
         color: var(--main-color);
     }
     
