@@ -137,6 +137,7 @@
         background: rgba(255, 255, 255, 1);
         position: relative;
         border-radius: 10px;
+        transition: all 1s ease;
     }
     
     .menu::before {
