@@ -168,7 +168,7 @@
         height: 25px; */
         z-index: 7;
         /* rotate: 360deg; */
-        transition: all 3s ease;
+        transition: all 1s ease;
     }
     
     .showburger .menu {
@@ -176,12 +176,12 @@
     }
     
     .showburger .menu::before {
-        transition: all 0.5s ease;
+        transition: all 0.8s ease;
         transform: rotate(45deg);
         background: var(--white-color);
     }
     .showburger .menu::after {
-        transition: all 0.5s ease;
+        transition: all 0.8s ease;
         transform: rotate(-45deg);
         background: var(--white-color);
     }
