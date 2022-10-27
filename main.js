@@ -1,4 +1,4 @@
-ScrollReveal({ reset: true, duration: 3000, })
+ScrollReveal({ reset: true, duration: 2000, })
 
 ScrollReveal().reveal('.explorer-desktop', {origin:'left', distance: '200px'});
 // ScrollReveal().reveal('.explorer-desktop', {origin:'left', distance: '200px'});
