@@ -1,0 +1,301 @@
+@media screen and (max-width: 1000px){
+    .explorer-desktop h1{
+        color: var(--white-color);
+        font-size: 30px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    .desktop-link-holder ul {
+        justify-content: space-evenly;
+    }
+
+    .desktop-link-holder ul a{
+        padding: 10px 5px;
+        font-size: 28px;
+        color: var(--white-color);
+        text-decoration: none;
+        font-family: sans-serif;
+        text-align: center;
+        font-weight: bolder;
+        border: 3px solid transparent;
+        transition: all 0.5s ease;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .desktop-link-holder ul a::after{
+        display: none;
+    }
+
+    .desktop-link-holder ul a:hover{
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        margin: 0 10px;
+    }
+
+    .header-text-container {
+        /* padding-right: 100px; */
+        /* border: 2px solid tomato; */
+        width: 100%;
+        padding: 50px;
+    }
+    
+    .header-text-container h1{
+        font-family: sans-serif;
+        font-size: 40px;
+        color: var(--white-color);
+        text-transform: uppercase;
+        text-align: left;
+    }
+    
+    .header-text-container p{
+        color: var(--white-color);
+        font-family: sans-serif;
+        font-size: 25px;
+        margin: 100px 0 50px 0;
+    }
+    
+}
+
+
+@media screen and (max-width: 700px){
+    header {
+        height: 100vh;
+        width: 100%;
+        /* min-height: 1200px; */
+        /* min-width: 650px; */
+        /* border: 2px solid black; */
+        background: var(--gradient-two), url(./img/header.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        
+    }
+    
+    .nav-desktop {
+        display: none;
+    }
+    
+    .header-text-container h1{
+        font-family: sans-serif;
+        font-size: 28px;
+        color: var(--white-color);
+        text-transform: uppercase;
+        text-align: left;
+    }
+    
+    .header-text-container {
+        margin-top: 100px;
+        /* border: 2px solid tomato; */
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .header-text-container p{
+        color: var(--white-color);
+        font-family: sans-serif;
+        font-size: 24px;
+        margin: 50px 0 20px 0;
+        text-align: left;
+    }
+    
+    .header-text-container button {
+        width: 264px;
+        font-size: 26px;
+        /* padding: 5px 30px; */
+    }
+
+    .header-text-container button img{
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        transition: all 1s ease;
+    }
+    
+    .header-text-container button:hover {
+        width: 250px;
+    }
+    
+    .header-banner-section {
+        /* border: 2px solid black; */
+        height: 80%;
+        margin-top: 50px;
+        
+    }
+
+    main{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .explore {
+        /* border: 2px black; */
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .explore-holder {
+        border: 0.5px solid transparent;
+        padding: 30px 30px ;
+        margin: 0 10px 40px 10px;
+        width: 400px;
+        height: 430px;
+        background: var(--main-color);
+        border-radius: 20px;
+        box-shadow: 8px 10px 60px -8px rgba(0, 0, 0, 0.4);
+    }
+
+    .explore-holder h1{
+        color: var(--white-color);
+        font-family: sans-serif;
+        font-size: 45px;
+        font-weight: bolder;
+    }
+    
+    .explore-holder p{
+        padding: 30px 0;
+        color: var(--white-color);
+        font-family: sans-serif;
+        font-size: 20.5px;
+        font-weight: bolder;
+    }
+    
+    .getstart{
+        justify-content: center;
+        align-items: center;
+        /* padding: 10px; */
+    }
+
+    .getstart button{
+        width: 300px;
+        margin-top: 40px;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .getstart button h1{
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 35px;
+        color: var(--main-color);
+    }
+    
+
+
+    .banner-content{
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+
+    .outro{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+        background: var(--main-color);
+        color: var(--white-color);
+        align-items: center;
+    }
+    
+    .outro h2{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+
+    .outro button{
+        width: 175px;
+        font-size: 20px;
+        height: 50px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        padding: 5px;
+    }
+
+
+    .footer-holder{
+        background: black;
+        display: flex;
+        flex-direction: column;
+        color: var(--white-color);
+        padding: 20px 40px;
+        font-family: sans-serif;
+        font-weight: bolder;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    
+    .footer-icon-holder{
+        margin-top: 17px;
+        width: 200px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        /* margin-right: 20px; */
+        
+    }
+    
+    .footer-icon-holder div{
+        margin: 0 10px;
+        border: 2px dotted transparent;
+        transition: all 0.5s ease;
+        padding: 7px;
+        border-radius: 50px;
+        
+    
+    }
+    
+    .footer-icon-holder div:hover {
+        /* border-bottom: 2px dotted rgba(255, 255, 255, 0.479); */
+        box-shadow: transparent;
+    }
+
+
+    /* linkedin icon starts */
+    .linkedin a img{
+        width: 30px;
+        height: 30px;
+        color: white;
+        background: black;
+    }
+    
+    /* linkedin icon ends */
+    
+    /* github icon starts */
+    .github a img{
+        width: 32px;
+        height: 32px;
+        color: white;
+        background: black;
+    }
+    
+    /* github icon ends */
+    
+    /* twitter icon starts */
+    .twitter a img{
+        width: 30px;
+        height: 30px;
+        color: white;
+        background: black;
+    }
+    
+    /* twitter icon ends */
+    
+
+
+
+}

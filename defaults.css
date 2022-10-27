@@ -4,6 +4,7 @@
     --white-color: #fff;
     --black-color: #000;
     --gradient: linear-gradient(0deg, rgba(255, 99, 71, 0.4), rgba(255, 99, 71, 0.3));
+    --gradient-two: linear-gradient(0deg, rgba(255, 99, 71, 0.35), rgba(255, 99, 71, 0.25));
     
 
 }
