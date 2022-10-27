@@ -5,8 +5,8 @@ ScrollReveal().reveal('.explorer-desktop', {origin:'left', distance: '200px'});
 // ScrollReveal().reveal('.footer-icon-holder div img', {origin:'right'});
 // ScrollReveal().reveal('.nav-mobile', {origin:'top', distance: '100px'});
 ScrollReveal().reveal('.outro h2', {origin:'left', distance:'200px'});
-ScrollReveal().reveal('.header-text-container div', {origin:'bottom', scale: 1});
-ScrollReveal().reveal('.header-text-container button div', {origin:'right', delay:1500, scale:2});
+ScrollReveal().reveal('.header-text-container div', {origin:'bottom'});
+// ScrollReveal().reveal('.header-text-container button div', {origin:'right', delay:1500, scale:2});
 // ScrollReveal().reveal('.heading, , {
 //     origin: 'left',
 //     distance: '100px',
