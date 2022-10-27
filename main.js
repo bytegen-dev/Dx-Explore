@@ -3,9 +3,9 @@ ScrollReveal({ reset: true, duration: 2000, })
 ScrollReveal().reveal('.explorer-desktop', {origin:'left', distance: '200px'});
 // ScrollReveal().reveal('.explorer-desktop', {origin:'left', distance: '200px'});
 // ScrollReveal().reveal('.footer-icon-holder div img', {origin:'right'});
-ScrollReveal().reveal('.explorer-mobile h1', {origin:'left', distance: '200px'});
+// ScrollReveal().reveal('.explorer-mobile h1', {origin:'left', distance: '200px'});
 ScrollReveal().reveal('.outro h2', {origin:'left', distance:'200px'});
-ScrollReveal().reveal('.header-text-container div', {origin:'bottom'});
+// ScrollReveal().reveal('.header-text-container div', {origin:'bottom'});
 // ScrollReveal().reveal('.header-text-container button div', {origin:'right', delay:1500, scale:2});
 // ScrollReveal().reveal('.heading, , {
 //     origin: 'left',
@@ -16,7 +16,7 @@ ScrollReveal().reveal('.header-text-container div', {origin:'bottom'});
 
 
 
-var unavailablefeature = "This feature is not yet available, try again later 😀"
+var unavailablefeature = "This feature is not yet available"
 
 
 
@@ -30,9 +30,9 @@ function callcharges() {
     alert("🔔 Local call rates apply")
 }
 
-function contactus() {
-    window.open (contact)
-}
+// function contactus() {
+//     window.open (contact)
+// }
 
 
 // console.log(hamburgerdiv)
