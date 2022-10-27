@@ -83,7 +83,7 @@
     /* preloader starts here */
     #preloader{
         background: #000 url(./preloader/egg-to-triangle.gif) no-repeat center;
-        background-size: 15%;
+        background-size: 30%;
         height: 100%;
         width: 100%;
         position: fixed;
