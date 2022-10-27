@@ -2,7 +2,7 @@ ScrollReveal({ reset: true, duration: 3000, })
 
 ScrollReveal().reveal('.explorer-desktop', {origin:'left', distance: '200px'});
 // ScrollReveal().reveal('.explorer-desktop', {origin:'left', distance: '200px'});
-ScrollReveal().reveal('.footer-icon-holder div img', {origin:'right'});
+// ScrollReveal().reveal('.footer-icon-holder div img', {origin:'right'});
 // ScrollReveal().reveal('.nav-mobile', {origin:'top', distance: '100px'});
 ScrollReveal().reveal('.outro h2', {origin:'left', distance:'200px'});
 ScrollReveal().reveal('.header-text-container div', {origin:'bottom', scale: 1});
