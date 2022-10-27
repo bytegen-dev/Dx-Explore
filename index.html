@@ -21,16 +21,16 @@
     <div class="backdrop" onclick="kaisen()"></div>
     <!-- header starts here -->
     <header>
-        <nav class="nav-mobile" id="home">
+        <nav class="nav-mobile" >
             <div class="explorer-mobile">
                 <h1>explorer</h1>
             </div>
-            <div class="hamburger">
+            <div class="hamburger" onclick="kaisen()">
                 <div class="menu"></div>
             </div>
             <div class="mobile-link-holder">
                 <ul>
-                    <li><a href="#home"> HOME</a></li>
+                    <li><a href="#home" class="mobile-active-link"> HOME</a></li>
                     <li><a href="#about"> ABOUT</a></li>
                     <li><a href="#contact-developer"> CONTACT</a></li>
                 </ul>
@@ -51,7 +51,7 @@
                 </ul>
             </div>
         </nav>
-        <div class="header-banner-section">
+        <div class="header-banner-section" id="home">
             <div class="banner-content">
                 <div class="header-text-container">
                     <h1>explore the world</h1>

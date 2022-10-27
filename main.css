@@ -391,7 +391,7 @@ footer {
 .backdrop {
     width :100%;
     height: 100%;
-    background: rgba(128, 128, 128, 0.31);
+    background: rgba(128, 128, 128, 0.41);
     position: fixed;
     left: 0;
     top: 0;
