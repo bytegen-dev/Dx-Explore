@@ -232,6 +232,7 @@
     .mobile-active-link {
         background: var(--white-color);
         color: var(--main-color) !important;
+        align-items: center;
     }
 
 
