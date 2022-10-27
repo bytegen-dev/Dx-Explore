@@ -79,6 +79,18 @@
 
 
     /* nav mobile starts here */
+
+    /* preloader starts here */
+    #preloader{
+        background: #000 url(./preloader/egg-to-triangle.gif) no-repeat center;
+        background-size: 15%;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+/* preloader ends here */
+
     .nav-mobile {
         display:flex;
         /* border: 2px solid black; */
