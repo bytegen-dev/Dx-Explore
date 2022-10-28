@@ -114,8 +114,18 @@
         top: 0;
         left: 0;
         margin: 20px 20px;
+        animation: explora;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
 
     }
+
+    @keyframes explora {
+        0% {left: -200px;}
+        100% {left: 0}
+    }
+
+
 
     .hamburger {
         /* border: 3px solid black; */
@@ -129,8 +139,10 @@
         right: 0;
         margin-right: 10px;
         /* transition: all 1s ease; */
+        
     }
 
+    
     .menu {
         height: 4.5px;
         width: 100%;
@@ -138,6 +150,14 @@
         position: relative;
         border-radius: 10px;
         transition: all 1.5s ease;
+        animation: hamburger;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+
+    }
+    @keyframes hamburger {
+        0% {right: -200px;}
+        100% {right: 0;}
     }
     
     .menu::before {
@@ -149,6 +169,9 @@
         transform: translateY(-11px);
         border-radius: 10px;
         transition: all 0.8s ease;
+        animation: hamburger;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
     }
     
     .menu::after {
@@ -160,6 +183,9 @@
         transform: translateY(11px);
         border-radius: 10px;
         transition: all 0.8s ease;
+        animation: hamburger;
+        animation-duration: 2.5s;
+        animation-fill-mode: forwards;
     }
 
     .showburger{
@@ -199,6 +225,7 @@
         position: fixed;
         right: 0;
         top: 0;
+
         /* height: 50vh; */
         width: 100%;
         background: var(--main-color);
@@ -411,6 +438,22 @@
         align-items: center;
         text-align: center;
     }
+
+    /* .footer-holder h2{
+        animation: footertext;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes footertext {
+        0% {top: -200px;}
+        25% {top: -150px;}
+        50% {top: -100px;}
+        75% {top: -50;}
+        100% {top: 0;}
+    } */
 
 
     
