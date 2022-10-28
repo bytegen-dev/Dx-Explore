@@ -337,14 +337,11 @@
     .header-text-container button {
         min-width: 264px;
         font-size: 26px;
+        animation: none
         /* z-index: -1; */
         /* padding: 5px 30px; */
     }
 
-    @keyframes kaisen{
-        0% {width: 264px;}
-        100% {width: 300px;}
-    }
 
     .header-text-container button img{
         width: 20px;
