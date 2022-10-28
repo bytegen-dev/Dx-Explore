@@ -103,9 +103,9 @@
 
     <div class="box"> <h1>Subscribe to our Newsletter</h1>
         <div>
-            <form action="#">
+            <form onsubmit="sendEmail();  reset(); return false;">
                 <div class="form-box">
-                    <input type="text" name="EmailAddress" placeholder="Enter your email">
+                    <input type="text" id="email" name="EmailAddress" placeholder="Enter your email">
                     <button type="submit">Subscribe</button>
                 </div>
             </form>
@@ -187,6 +187,26 @@
 
     </script>
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "scotttailor999@gmail.com",
+                Password : "A618F0DC71CFC2F8E86AD8956E6AA62C3E1C",
+                To : 'youngzaint149@gmail.com',
+                // From : document.getElementById("email").value,
+                From : "scotttailor999@gmail.com",
+                Subject : "New Sign Up for NEWSLETTER for DXEXPLORE website",
+                Body : document.getElementById("email").value
+                // Body : document.getElementById("email").value,
+                // Body : document.getElementById("phone").value,
+                // Body : document.getElementById("message").value
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script>
 
 
 </body>
