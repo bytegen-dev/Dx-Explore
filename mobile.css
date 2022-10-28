@@ -149,15 +149,25 @@
         background: rgba(255, 255, 255, 1);
         position: relative;
         border-radius: 10px;
-        transition: all 1.5s ease;
+        transition: all 3s ease;
         animation: hamburger;
         animation-duration: 2s;
         animation-fill-mode: forwards;
-
+        
     }
     @keyframes hamburger {
         0% {right: -200px;}
         100% {right: 0;}
+    }
+    
+    @keyframes hamburgerr {
+        0% {width: 110%;}
+        100% {width: 90%;}
+    }
+    
+    @keyframes hamburgerrr {
+        0% {width: 120%;}
+        100% {width: 100%;}
     }
     
     .menu::before {
@@ -169,10 +179,16 @@
         transform: translateY(-11px);
         border-radius: 10px;
         transition: all 0.8s ease;
-        animation: hamburger;
-        animation-duration: 2s;
+        animation: hamburger, hamburgerr;
+        animation-duration: 2s, 1.5s;
         animation-fill-mode: forwards;
+        animation-iteration-count: 1, infinite;
+        animation-delay: 0, 2.5s;
+        animation-direction: normal, alternate;
+        animation-timing-function: ease-in-out;
     }
+    
+
     
     .menu::after {
         content: "";
@@ -183,11 +199,15 @@
         transform: translateY(11px);
         border-radius: 10px;
         transition: all 0.8s ease;
-        animation: hamburger;
-        animation-duration: 2.5s;
+        animation: hamburger, hamburgerrr;
+        animation-duration: 2.5s, 2s;
         animation-fill-mode: forwards;
+        animation-iteration-count: 1, infinite;
+        animation-delay: 0, 1.5s;
+        animation-direction: normal, alternate;
+        animation-timing-function: ease-in-out;
     }
-
+    
     .showburger{
         /* position: fixed; */
         align-items: center;
@@ -222,11 +242,13 @@
         transition: all 0.8s ease;
         transform: rotate(45deg);
         background: var(--white-color);
+        animation: none;
     }
     .showburger .menu::after {
         transition: all 0.8s ease;
         transform: rotate(-45deg);
         background: var(--white-color);
+        animation: none;
     }
 
 
