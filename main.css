@@ -179,13 +179,25 @@ header {
     height: 70px;
     align-items: center;
     transition: all 0.5s ease;
-    width: 50%;
+    min-width: 50%;
     justify-content: space-between;
     text-align: left;
     /* margin-top: 50px; */
     display: flex;
     text-transform: uppercase;
     font-weight: bolder;
+    animation: kaisen;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+
+@keyframes kaisen{
+    0% {width: 50%;}
+    100% {width: 60%;}
 }
 
 .header-text-container button img{
@@ -195,13 +207,15 @@ header {
     transition: all 1s ease;
 }
 
+
+
 .header-text-container button img:hover{
     rotate: 360deg;
 } 
 
-.header-text-container button:hover{
-    width: 400px;
-}
+/* .header-text-container button:hover{
+    
+} */
 /* .header-text-container button i{
     font-size: 30px;
 } */
