@@ -272,6 +272,58 @@ main{
 
 /* main ends here */
 
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+
+}
+
+.box h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.form-box{
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+
+.form-box input{
+    font-size: 18px;
+    color: #000;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #ececec;
+
+}
+
+.form-box button{
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background: var(--main-color);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form-box button:hover{
+    background: var(--main-color-dark);
+}
+
+
 /* footer starts here */
 footer {
     width: 100%;
