@@ -260,7 +260,7 @@
         position: fixed;
         right: 0;
         top: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.3);
+        border-top: 1px solid rgba(0, 0, 0, 0.15);
 
         /* height: 50vh; */
         width: 100%;
@@ -318,9 +318,9 @@
     }
     
     .header-text-container h1{
-        font-family: animeace;
-        font-size: 25px;
-        /* font-weight: bolder; */
+        font-family: sans-serif;
+        font-size: 28px;
+        font-weight: bolder;
         color: var(--white-color);
         text-transform: uppercase;
         text-align: left;
@@ -490,8 +490,8 @@
     }
 
     .outro button{
-        width: 175px;
-        font-size: 20px;
+        width: 150px;
+        font-size: 18px;
         height: 50px;
         font-weight: bolder;
         text-transform: uppercase;
