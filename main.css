@@ -10,6 +10,21 @@
     src: url(./fonts/Kaira.ttf);
 }
 
+@font-face {
+    font-family: crack;
+    src: url(./fonts/Crackvetica.ttf);
+}
+
+@font-face {
+    font-family: crash;
+    src: url(./fonts/PlaneCrash.ttf);
+}
+
+@font-face {
+    font-family: personal;
+    src: url(./fonts/PersonalServices.ttf);
+}
+
 html{
     scroll-behavior: smooth;
 }
