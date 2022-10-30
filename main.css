@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: kaira;
+    src: url(./fonts/Kaira.ttf);
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -22,6 +27,7 @@ html{
     border: 2px solid var(--white-color);
     border-radius: 23px;
     color: var(--main-color);
+    font-family: sans-serif;
 }
 
 
