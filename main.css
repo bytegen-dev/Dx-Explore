@@ -8,21 +8,43 @@
 @font-face {
     font-family: kaira;
     src: url(./fonts/Kaira.ttf);
+    alt: sans-serif;
 }
 
 @font-face {
     font-family: crack;
     src: url(./fonts/Crackvetica.ttf);
+    alt: sans-serif;
 }
 
 @font-face {
     font-family: crash;
     src: url(./fonts/PlaneCrash.ttf);
+    alt: sans-serif;
 }
 
 @font-face {
     font-family: personal;
     src: url(./fonts/PersonalServices.ttf);
+    alt: sans-serif;
+}
+
+@font-face {
+    font-family: birth;
+    src: url(./fonts/birthofahero.ttf);
+    alt: sans-serif;
+}
+
+@font-face {
+    font-family: animeace;
+    src: url(./fonts/animeace2_reg.ttf);
+    alt: sans-serif;
+}
+
+@font-face {
+    font-family: mabook;
+    src: url(./fonts/Mabook.ttf);
+    alt: sans-serif;
 }
 
 html{
