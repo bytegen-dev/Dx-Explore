@@ -107,7 +107,7 @@
     .explorer-mobile h1{
         color: var(--white-color);
         font-size: 35px;
-        font-family: kaira;
+        font-family: sans-serif;
         font-weight: bolder;
         text-transform: uppercase;
         position: fixed;
