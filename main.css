@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: kaira;
-    src: url(./fonts/Kaira.ttf);
+    src: url(./fonts/Kaira.ttf);    
     alt: sans-serif;
 }
 
@@ -58,6 +58,9 @@ html{
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar{
+    width: 0;
+}
 /* Page resets ends here*/
 
 /* common starts here */
