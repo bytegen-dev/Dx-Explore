@@ -1,3 +1,5 @@
+
+
 @media screen and (max-width: 1000px){
     .explorer-desktop h1{
         color: var(--white-color);
@@ -106,14 +108,14 @@
 
     .explorer-mobile h1{
         color: var(--white-color);
-        font-size: 35px;
-        font-family: sans-serif;
+        font-size: 34px;
+        font-family: animeace;
         font-weight: bolder;
         text-transform: uppercase;
         position: fixed;
         top: 0;
         left: 0;
-        margin: 20px 20px;
+        margin: 15px 20px;
         animation: explora;
         animation-duration: 4s;
         animation-fill-mode: forwards;
@@ -590,3 +592,12 @@
 
 
 }
+
+@media screen and (max-width: 350px) {
+    * {
+        display: none;
+    }
+
+
+}
+
